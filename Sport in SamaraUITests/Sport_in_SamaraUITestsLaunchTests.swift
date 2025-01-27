@@ -1,10 +1,3 @@
-//
-//  Sport_in_SamaraUITestsLaunchTests.swift
-//  Sport in SamaraUITests
-//
-//  Created by Matvey on 18.10.2023.
-//
-
 import XCTest
 
 final class Sport_in_SamaraUITestsLaunchTests: XCTestCase {
