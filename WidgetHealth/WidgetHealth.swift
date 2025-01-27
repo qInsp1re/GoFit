@@ -1,9 +1,3 @@
-//
-//  WidgetHealth.swift
-//  WidgetHealth
-//
-//  Created by Matvey on 03.11.2023.
-//
 
 import WidgetKit
 import SwiftUI
@@ -12,14 +6,12 @@ import HealthKit
 class HealthKitManager: ObservableObject {
     private var healthStore: HKHealthStore?
 
-    // Initialize HealthStore if available
     init() {
         if HKHealthStore.isHealthDataAvailable() {
             healthStore = HKHealthStore()
         }
     }
 
-    // Request authorization for health data
     func requestAuthorization(completion: @escaping (Bool) -> Void) {
         guard let healthStore = self.healthStore else {
             completion(false)
@@ -40,17 +32,14 @@ class HealthKitManager: ObservableObject {
         }
     }
 
-    // Fetch steps
     func fetchSteps(completion: @escaping (Double) -> Void) {
         fetchData(for: .stepCount, unit: HKUnit.count(), completion: completion)
     }
 
-    // Fetch active energy burned
     func fetchActiveEnergy(completion: @escaping (Double) -> Void) {
         fetchData(for: .activeEnergyBurned, unit: HKUnit.kilocalorie(), completion: completion)
     }
 
-    // Fetch sleep analysis
     func fetchSleepAnalysis(completion: @escaping (Double) -> Void) {
         let sleepType = HKObjectType.categoryType(forIdentifier: .sleepAnalysis)!
         let now = Date()
@@ -73,7 +62,6 @@ class HealthKitManager: ObservableObject {
         healthStore?.execute(query)
     }
 
-    // Fetch average heart rate
     func fetchAverageHeartRate(completion: @escaping (Double) -> Void) {
         guard let heartRateType = HKObjectType.quantityType(forIdentifier: .heartRate) else {
             completion(0.0)
@@ -95,12 +83,10 @@ class HealthKitManager: ObservableObject {
         healthStore?.execute(query)
     }
 
-    // Fetch exercise minutes
     func fetchExerciseMinutes(completion: @escaping (Double) -> Void) {
         fetchData(for: .appleExerciseTime, unit: HKUnit.minute(), completion: completion)
     }
 
-    // Fetch weight (not displayed but fetched as per original code)
     func fetchWeight(completion: @escaping (Double) -> Void) {
         let weightType = HKObjectType.quantityType(forIdentifier: .bodyMass)!
         
@@ -148,7 +134,6 @@ class HealthKitManager: ObservableObject {
     }
 
 
-    // Generic fetch data function
     private func fetchData(for typeIdentifier: HKQuantityTypeIdentifier, unit: HKUnit, completion: @escaping (Double) -> Void) {
         let type = HKObjectType.quantityType(forIdentifier: typeIdentifier)!
         let now = Date()
@@ -258,11 +243,6 @@ struct WidgetHealthEntryView: View {
                         .offset(x: -5, y: -10) // Сдвигаем текст влево и вверх
 
                     Spacer()
-
-//                    Image("logo")
-//                        .resizable()
-//                        .aspectRatio(contentMode: .fit)
-//                        .frame(width: 30, height: 30) // Размер логотипа
                 }
                 .padding(.bottom, 10)
 
