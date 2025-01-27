@@ -1,9 +1,3 @@
-//
-//  WidgetHealthBundle.swift
-//  WidgetHealth
-//
-//  Created by Matvey on 03.11.2023.
-//
 
 import WidgetKit
 import SwiftUI
