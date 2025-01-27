@@ -1,10 +1,3 @@
-//
-//  Sport_in_SamaraApp.swift
-//  Sport in Samara
-//
-//  Created by Matvey on 18.10.2023.
-//
-
 import SwiftUI
 
 
