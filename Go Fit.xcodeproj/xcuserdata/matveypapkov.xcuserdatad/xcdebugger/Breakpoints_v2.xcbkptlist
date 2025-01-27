@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "A6C27840-519C-4A22-9946-9B443152498B"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DB3846D0-2D21-42A8-8644-C95AF6B42D65"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sport in Samara/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1910"
+            endingLineNumber = "1910"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "DB3846D0-2D21-42A8-8644-C95AF6B42D65 - 9dd5ec7fa98e728e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Go_Fit.ProCabinetView_Previews.previews.getter : some"
+                  moduleName = "Go Fit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/matveypapkov/Desktop/Files/Xcode/sport%20app/Sport%20in%20Samara/Sport%20in%20Samara/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1898"
+                  endingLineNumber = "1898"
+                  offsetFromSymbolStart = "100">
+               </Location>
+               <Location
+                  uuid = "DB3846D0-2D21-42A8-8644-C95AF6B42D65 - 9dd5ec7fa98e749f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Go_Fit.ProCabinetView_Previews.previews.getter : some"
+                  moduleName = "Go Fit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/matveypapkov/Desktop/Files/Xcode/sport%20app/Sport%20in%20Samara/Sport%20in%20Samara/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1913"
+                  endingLineNumber = "1913"
+                  offsetFromSymbolStart = "100">
+               </Location>
+               <Location
+                  uuid = "DB3846D0-2D21-42A8-8644-C95AF6B42D65 - 9dd5ec7fa98e73f6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Go_Fit.ProCabinetView_Previews.previews.getter : some"
+                  moduleName = "Go Fit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/matveypapkov/Desktop/Files/Xcode/sport%20app/Sport%20in%20Samara/Sport%20in%20Samara/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1906"
+                  endingLineNumber = "1906"
+                  offsetFromSymbolStart = "100">
+               </Location>
+               <Location
+                  uuid = "DB3846D0-2D21-42A8-8644-C95AF6B42D65 - 9dd5ec7fa98e73d1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Go_Fit.ProCabinetView_Previews.previews.getter : some"
+                  moduleName = "Go Fit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/matveypapkov/Desktop/Files/Xcode/sport%20app/Sport%20in%20Samara/Sport%20in%20Samara/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1907"
+                  endingLineNumber = "1907"
+                  offsetFromSymbolStart = "100">
+               </Location>
+               <Location
+                  uuid = "DB3846D0-2D21-42A8-8644-C95AF6B42D65 - 9dd5ec7fa98e75c1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Go_Fit.ProCabinetView_Previews.previews.getter : some"
+                  moduleName = "Go Fit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/matveypapkov/Desktop/Files/Xcode/sport%20app/Sport%20in%20Samara/Sport%20in%20Samara/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1923"
+                  endingLineNumber = "1923"
+                  offsetFromSymbolStart = "100">
+               </Location>
+               <Location
+                  uuid = "DB3846D0-2D21-42A8-8644-C95AF6B42D65 - 9dd5ec7fa98e7372"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Go_Fit.ProCabinetView_Previews.previews.getter : some"
+                  moduleName = "Go Fit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/matveypapkov/Desktop/Files/Xcode/sport%20app/Sport%20in%20Samara/Sport%20in%20Samara/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1910"
+                  endingLineNumber = "1910"
+                  offsetFromSymbolStart = "100">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6CC68DCE-D386-4AB8-96DE-9207C0C969A0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sport in Samara/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "107"
+            endingLineNumber = "107"
+            landmarkName = "sha256()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6CC68DCE-D386-4AB8-96DE-9207C0C969A0 - c04c8a3c1aef9d1a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Swift.String.sha256() -&gt; Swift.String"
+                  moduleName = "Go Fit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/matveypapkov/Desktop/Files/Xcode/sport%20app/Sport%20in%20Samara/Sport%20in%20Samara/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "1152">
+               </Location>
+               <Location
+                  uuid = "6CC68DCE-D386-4AB8-96DE-9207C0C969A0 - c04c8a3c1aef9eed"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Swift.String.sha256() -&gt; Swift.String"
+                  moduleName = "Go Fit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/matveypapkov/Desktop/Files/Xcode/sport%20app/Sport%20in%20Samara/Sport%20in%20Samara/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "1152">
+               </Location>
+               <Location
+                  uuid = "6CC68DCE-D386-4AB8-96DE-9207C0C969A0 - c04c8a3c1aef9ecc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Swift.String.sha256() -&gt; Swift.String"
+                  moduleName = "Go Fit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/matveypapkov/Desktop/Files/Xcode/sport%20app/Sport%20in%20Samara/Sport%20in%20Samara/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "1072">
+               </Location>
+               <Location
+                  uuid = "6CC68DCE-D386-4AB8-96DE-9207C0C969A0 - c04c8a3c1aef9ecc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Swift.String.sha256() -&gt; Swift.String"
+                  moduleName = "Go Fit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/matveypapkov/Desktop/Files/Xcode/sport%20app/Sport%20in%20Samara/Sport%20in%20Samara/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "1152">
+               </Location>
+               <Location
+                  uuid = "6CC68DCE-D386-4AB8-96DE-9207C0C969A0 - c04c8a3c1aef94b9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Swift.String.sha256() -&gt; Swift.String"
+                  moduleName = "Go Fit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/matveypapkov/Desktop/Files/Xcode/sport%20app/Sport%20in%20Samara/Sport%20in%20Samara/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "89"
+                  endingLineNumber = "89"
+                  offsetFromSymbolStart = "1072">
+               </Location>
+               <Location
+                  uuid = "6CC68DCE-D386-4AB8-96DE-9207C0C969A0 - c04c8a3c1aef94b9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Swift.String.sha256() -&gt; Swift.String"
+                  moduleName = "Go Fit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/matveypapkov/Desktop/Files/Xcode/sport%20app/Sport%20in%20Samara/Sport%20in%20Samara/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "89"
+                  endingLineNumber = "89"
+                  offsetFromSymbolStart = "1152">
+               </Location>
+               <Location
+                  uuid = "6CC68DCE-D386-4AB8-96DE-9207C0C969A0 - c04c8a3c1aef9463"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Swift.String.sha256() -&gt; Swift.String"
+                  moduleName = "Go Fit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/matveypapkov/Desktop/Files/Xcode/sport%20app/Sport%20in%20Samara/Sport%20in%20Samara/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "95"
+                  endingLineNumber = "95"
+                  offsetFromSymbolStart = "1152">
+               </Location>
+               <Location
+                  uuid = "6CC68DCE-D386-4AB8-96DE-9207C0C969A0 - c04c8a3c1aef9442"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Swift.String.sha256() -&gt; Swift.String"
+                  moduleName = "Go Fit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/matveypapkov/Desktop/Files/Xcode/sport%20app/Sport%20in%20Samara/Sport%20in%20Samara/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "96"
+                  endingLineNumber = "96"
+                  offsetFromSymbolStart = "1152">
+               </Location>
+               <Location
+                  uuid = "6CC68DCE-D386-4AB8-96DE-9207C0C969A0 - c04c8a3c1aef9704"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Swift.String.sha256() -&gt; Swift.String"
+                  moduleName = "Go Fit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/matveypapkov/Desktop/Files/Xcode/sport%20app/Sport%20in%20Samara/Sport%20in%20Samara/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "102"
+                  endingLineNumber = "102"
+                  offsetFromSymbolStart = "1152">
+               </Location>
+               <Location
+                  uuid = "6CC68DCE-D386-4AB8-96DE-9207C0C969A0 - c04c8a3c1aef974a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Swift.String.sha256() -&gt; Swift.String"
+                  moduleName = "Go Fit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/matveypapkov/Desktop/Files/Xcode/sport%20app/Sport%20in%20Samara/Sport%20in%20Samara/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "104"
+                  endingLineNumber = "104"
+                  offsetFromSymbolStart = "1152">
+               </Location>
+               <Location
+                  uuid = "6CC68DCE-D386-4AB8-96DE-9207C0C969A0 - c04c8a3c1aef96ef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Swift.String.sha256() -&gt; Swift.String"
+                  moduleName = "Go Fit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/matveypapkov/Desktop/Files/Xcode/sport%20app/Sport%20in%20Samara/Sport%20in%20Samara/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "107"
+                  endingLineNumber = "107"
+                  offsetFromSymbolStart = "1152">
+               </Location>
+               <Location
+                  uuid = "6CC68DCE-D386-4AB8-96DE-9207C0C969A0 - c04c8a3c1aef96ef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Swift.String.sha256() -&gt; Swift.String"
+                  moduleName = "Go Fit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/matveypapkov/Desktop/Files/Xcode/sport%20app/Sport%20in%20Samara/Sport%20in%20Samara/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "107"
+                  endingLineNumber = "107"
+                  offsetFromSymbolStart = "1072">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CBBFF13E-2E00-4AC5-8FB7-3751EB59D767"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sport in Samara/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "108"
+            endingLineNumber = "108"
+            landmarkName = "String"
+            landmarkType = "21">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -1,0 +1,836 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		855AD47D2ADFD567000D999F /* Sport_in_SamaraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855AD47C2ADFD567000D999F /* Sport_in_SamaraApp.swift */; };
+		855AD47F2ADFD567000D999F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855AD47E2ADFD567000D999F /* ContentView.swift */; };
+		855AD4812ADFD569000D999F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 855AD4802ADFD569000D999F /* Assets.xcassets */; };
+		855AD4842ADFD569000D999F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 855AD4832ADFD569000D999F /* Preview Assets.xcassets */; };
+		855AD48E2ADFD569000D999F /* Sport_in_SamaraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855AD48D2ADFD569000D999F /* Sport_in_SamaraTests.swift */; };
+		855AD4982ADFD569000D999F /* Sport_in_SamaraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855AD4972ADFD569000D999F /* Sport_in_SamaraUITests.swift */; };
+		855AD49A2ADFD569000D999F /* Sport_in_SamaraUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855AD4992ADFD569000D999F /* Sport_in_SamaraUITestsLaunchTests.swift */; };
+		856A76E62AE2D8C600501687 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 856A76E52AE2D8C600501687 /* Realm */; };
+		856A76E82AE2D8C600501687 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 856A76E72AE2D8C600501687 /* RealmSwift */; };
+		858E93372AF4FD21001AFCF0 /* WidgetHealthBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858E93362AF4FD21001AFCF0 /* WidgetHealthBundle.swift */; };
+		858E93392AF4FD21001AFCF0 /* WidgetHealth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858E93382AF4FD21001AFCF0 /* WidgetHealth.swift */; };
+		858E933B2AF4FD21001AFCF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 858E933A2AF4FD21001AFCF0 /* Assets.xcassets */; };
+		858E933F2AF4FD21001AFCF0 /* WidgetHealthExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 858E93322AF4FD20001AFCF0 /* WidgetHealthExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		855AD48A2ADFD569000D999F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 855AD4712ADFD567000D999F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 855AD4782ADFD567000D999F;
+			remoteInfo = "Sport in Samara";
+		};
+		855AD4942ADFD569000D999F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 855AD4712ADFD567000D999F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 855AD4782ADFD567000D999F;
+			remoteInfo = "Sport in Samara";
+		};
+		858E933D2AF4FD21001AFCF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 855AD4712ADFD567000D999F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 858E93312AF4FD20001AFCF0;
+			remoteInfo = WidgetHealthExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		856580BE2AF1691E00B91667 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				858E933F2AF4FD21001AFCF0 /* WidgetHealthExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		85176BA32AE6655B00297751 /* Go Fit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Go Fit.entitlements"; sourceTree = "<group>"; };
+		855AD4792ADFD567000D999F /* Go Fit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Go Fit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		855AD47C2ADFD567000D999F /* Sport_in_SamaraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sport_in_SamaraApp.swift; sourceTree = "<group>"; };
+		855AD47E2ADFD567000D999F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		855AD4802ADFD569000D999F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		855AD4832ADFD569000D999F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		855AD4892ADFD569000D999F /* Go FitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Go FitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		855AD48D2ADFD569000D999F /* Sport_in_SamaraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sport_in_SamaraTests.swift; sourceTree = "<group>"; };
+		855AD4932ADFD569000D999F /* Go FitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Go FitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		855AD4972ADFD569000D999F /* Sport_in_SamaraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sport_in_SamaraUITests.swift; sourceTree = "<group>"; };
+		855AD4992ADFD569000D999F /* Sport_in_SamaraUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sport_in_SamaraUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		856A76EC2AE2E71200501687 /* Go-Fit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Go-Fit-Info.plist"; sourceTree = "<group>"; };
+		858E93322AF4FD20001AFCF0 /* WidgetHealthExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WidgetHealthExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		858E93362AF4FD21001AFCF0 /* WidgetHealthBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetHealthBundle.swift; sourceTree = "<group>"; };
+		858E93382AF4FD21001AFCF0 /* WidgetHealth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetHealth.swift; sourceTree = "<group>"; };
+		858E933A2AF4FD21001AFCF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		858E933C2AF4FD21001AFCF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		855AD4762ADFD567000D999F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				856A76E82AE2D8C600501687 /* RealmSwift in Frameworks */,
+				856A76E62AE2D8C600501687 /* Realm in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		855AD4862ADFD569000D999F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		855AD4902ADFD569000D999F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		858E932F2AF4FD20001AFCF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		855AD4702ADFD567000D999F = {
+			isa = PBXGroup;
+			children = (
+				85176BA32AE6655B00297751 /* Go Fit.entitlements */,
+				856A76EC2AE2E71200501687 /* Go-Fit-Info.plist */,
+				855AD47B2ADFD567000D999F /* Sport in Samara */,
+				855AD48C2ADFD569000D999F /* Sport in SamaraTests */,
+				855AD4962ADFD569000D999F /* Sport in SamaraUITests */,
+				858E93352AF4FD21001AFCF0 /* WidgetHealth */,
+				855AD47A2ADFD567000D999F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		855AD47A2ADFD567000D999F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				855AD4792ADFD567000D999F /* Go Fit.app */,
+				855AD4892ADFD569000D999F /* Go FitTests.xctest */,
+				855AD4932ADFD569000D999F /* Go FitUITests.xctest */,
+				858E93322AF4FD20001AFCF0 /* WidgetHealthExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		855AD47B2ADFD567000D999F /* Sport in Samara */ = {
+			isa = PBXGroup;
+			children = (
+				855AD47C2ADFD567000D999F /* Sport_in_SamaraApp.swift */,
+				855AD47E2ADFD567000D999F /* ContentView.swift */,
+				855AD4802ADFD569000D999F /* Assets.xcassets */,
+				855AD4822ADFD569000D999F /* Preview Content */,
+			);
+			path = "Sport in Samara";
+			sourceTree = "<group>";
+		};
+		855AD4822ADFD569000D999F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				855AD4832ADFD569000D999F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		855AD48C2ADFD569000D999F /* Sport in SamaraTests */ = {
+			isa = PBXGroup;
+			children = (
+				855AD48D2ADFD569000D999F /* Sport_in_SamaraTests.swift */,
+			);
+			path = "Sport in SamaraTests";
+			sourceTree = "<group>";
+		};
+		855AD4962ADFD569000D999F /* Sport in SamaraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				855AD4972ADFD569000D999F /* Sport_in_SamaraUITests.swift */,
+				855AD4992ADFD569000D999F /* Sport_in_SamaraUITestsLaunchTests.swift */,
+			);
+			path = "Sport in SamaraUITests";
+			sourceTree = "<group>";
+		};
+		858E93352AF4FD21001AFCF0 /* WidgetHealth */ = {
+			isa = PBXGroup;
+			children = (
+				858E93362AF4FD21001AFCF0 /* WidgetHealthBundle.swift */,
+				858E93382AF4FD21001AFCF0 /* WidgetHealth.swift */,
+				858E933A2AF4FD21001AFCF0 /* Assets.xcassets */,
+				858E933C2AF4FD21001AFCF0 /* Info.plist */,
+			);
+			path = WidgetHealth;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		855AD4782ADFD567000D999F /* Go Fit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 855AD49D2ADFD569000D999F /* Build configuration list for PBXNativeTarget "Go Fit" */;
+			buildPhases = (
+				855AD4752ADFD567000D999F /* Sources */,
+				855AD4762ADFD567000D999F /* Frameworks */,
+				855AD4772ADFD567000D999F /* Resources */,
+				856580BE2AF1691E00B91667 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				858E933E2AF4FD21001AFCF0 /* PBXTargetDependency */,
+			);
+			name = "Go Fit";
+			packageProductDependencies = (
+				856A76E52AE2D8C600501687 /* Realm */,
+				856A76E72AE2D8C600501687 /* RealmSwift */,
+			);
+			productName = "Sport in Samara";
+			productReference = 855AD4792ADFD567000D999F /* Go Fit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		855AD4882ADFD569000D999F /* Go FitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 855AD4A02ADFD569000D999F /* Build configuration list for PBXNativeTarget "Go FitTests" */;
+			buildPhases = (
+				855AD4852ADFD569000D999F /* Sources */,
+				855AD4862ADFD569000D999F /* Frameworks */,
+				855AD4872ADFD569000D999F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				855AD48B2ADFD569000D999F /* PBXTargetDependency */,
+			);
+			name = "Go FitTests";
+			productName = "Sport in SamaraTests";
+			productReference = 855AD4892ADFD569000D999F /* Go FitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		855AD4922ADFD569000D999F /* Go FitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 855AD4A32ADFD569000D999F /* Build configuration list for PBXNativeTarget "Go FitUITests" */;
+			buildPhases = (
+				855AD48F2ADFD569000D999F /* Sources */,
+				855AD4902ADFD569000D999F /* Frameworks */,
+				855AD4912ADFD569000D999F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				855AD4952ADFD569000D999F /* PBXTargetDependency */,
+			);
+			name = "Go FitUITests";
+			productName = "Sport in SamaraUITests";
+			productReference = 855AD4932ADFD569000D999F /* Go FitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		858E93312AF4FD20001AFCF0 /* WidgetHealthExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 858E93402AF4FD21001AFCF0 /* Build configuration list for PBXNativeTarget "WidgetHealthExtension" */;
+			buildPhases = (
+				858E932E2AF4FD20001AFCF0 /* Sources */,
+				858E932F2AF4FD20001AFCF0 /* Frameworks */,
+				858E93302AF4FD20001AFCF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WidgetHealthExtension;
+			productName = WidgetHealthExtension;
+			productReference = 858E93322AF4FD20001AFCF0 /* WidgetHealthExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		855AD4712ADFD567000D999F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					855AD4782ADFD567000D999F = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					855AD4882ADFD569000D999F = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 855AD4782ADFD567000D999F;
+					};
+					855AD4922ADFD569000D999F = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 855AD4782ADFD567000D999F;
+					};
+					858E93312AF4FD20001AFCF0 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 855AD4742ADFD567000D999F /* Build configuration list for PBXProject "Go Fit" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 855AD4702ADFD567000D999F;
+			packageReferences = (
+				856A76E42AE2D8C600501687 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
+			productRefGroup = 855AD47A2ADFD567000D999F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				855AD4782ADFD567000D999F /* Go Fit */,
+				855AD4882ADFD569000D999F /* Go FitTests */,
+				855AD4922ADFD569000D999F /* Go FitUITests */,
+				858E93312AF4FD20001AFCF0 /* WidgetHealthExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		855AD4772ADFD567000D999F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				855AD4842ADFD569000D999F /* Preview Assets.xcassets in Resources */,
+				855AD4812ADFD569000D999F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		855AD4872ADFD569000D999F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		855AD4912ADFD569000D999F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		858E93302AF4FD20001AFCF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				858E933B2AF4FD21001AFCF0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		855AD4752ADFD567000D999F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				855AD47F2ADFD567000D999F /* ContentView.swift in Sources */,
+				855AD47D2ADFD567000D999F /* Sport_in_SamaraApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		855AD4852ADFD569000D999F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				855AD48E2ADFD569000D999F /* Sport_in_SamaraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		855AD48F2ADFD569000D999F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				855AD4982ADFD569000D999F /* Sport_in_SamaraUITests.swift in Sources */,
+				855AD49A2ADFD569000D999F /* Sport_in_SamaraUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		858E932E2AF4FD20001AFCF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				858E93372AF4FD21001AFCF0 /* WidgetHealthBundle.swift in Sources */,
+				858E93392AF4FD21001AFCF0 /* WidgetHealth.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		855AD48B2ADFD569000D999F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 855AD4782ADFD567000D999F /* Go Fit */;
+			targetProxy = 855AD48A2ADFD569000D999F /* PBXContainerItemProxy */;
+		};
+		855AD4952ADFD569000D999F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 855AD4782ADFD567000D999F /* Go Fit */;
+			targetProxy = 855AD4942ADFD569000D999F /* PBXContainerItemProxy */;
+		};
+		858E933E2AF4FD21001AFCF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 858E93312AF4FD20001AFCF0 /* WidgetHealthExtension */;
+			targetProxy = 858E933D2AF4FD21001AFCF0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		855AD49B2ADFD569000D999F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Debug;
+		};
+		855AD49C2ADFD569000D999F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Release;
+		};
+		855AD49E2ADFD569000D999F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Go Fit.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 94N69X56A2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Go-Fit-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Go Fit";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "For statistics";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "For statistics";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "For statistics";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "For statistics";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "For statistics";
+				INFOPLIST_KEY_NSLocationUsageDescription = fff;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "For statistics";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "for profile photo";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Buba.GoFit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		855AD49F2ADFD569000D999F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Go Fit.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 94N69X56A2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Go-Fit-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Go Fit";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "For statistics";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "For statistics";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "For statistics";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "For statistics";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "For statistics";
+				INFOPLIST_KEY_NSLocationUsageDescription = fff;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "For statistics";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "for profile photo";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Buba.GoFit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		855AD4A12ADFD569000D999F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 94N69X56A2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Buba.GoFit.Test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Go Fit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Go Fit";
+			};
+			name = Debug;
+		};
+		855AD4A22ADFD569000D999F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 94N69X56A2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Buba.GoFit.Test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Go Fit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Go Fit";
+			};
+			name = Release;
+		};
+		855AD4A42ADFD569000D999F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 94N69X56A2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Buba.GoFit.Test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Sport in Samara";
+			};
+			name = Debug;
+		};
+		855AD4A52ADFD569000D999F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 94N69X56A2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Buba.GoFit.Test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Sport in Samara";
+			};
+			name = Release;
+		};
+		858E93412AF4FD21001AFCF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 94N69X56A2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WidgetHealth/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WidgetHealth;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "For statistics";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "For statistics";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Buba.GoFit.WidgetHealth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		858E93422AF4FD21001AFCF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 94N69X56A2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WidgetHealth/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WidgetHealth;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "For statistics";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "For statistics";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Buba.GoFit.WidgetHealth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		855AD4742ADFD567000D999F /* Build configuration list for PBXProject "Go Fit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				855AD49B2ADFD569000D999F /* Debug */,
+				855AD49C2ADFD569000D999F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		855AD49D2ADFD569000D999F /* Build configuration list for PBXNativeTarget "Go Fit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				855AD49E2ADFD569000D999F /* Debug */,
+				855AD49F2ADFD569000D999F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		855AD4A02ADFD569000D999F /* Build configuration list for PBXNativeTarget "Go FitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				855AD4A12ADFD569000D999F /* Debug */,
+				855AD4A22ADFD569000D999F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		855AD4A32ADFD569000D999F /* Build configuration list for PBXNativeTarget "Go FitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				855AD4A42ADFD569000D999F /* Debug */,
+				855AD4A52ADFD569000D999F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		858E93402AF4FD21001AFCF0 /* Build configuration list for PBXNativeTarget "WidgetHealthExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				858E93412AF4FD21001AFCF0 /* Debug */,
+				858E93422AF4FD21001AFCF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		856A76E42AE2D8C600501687 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				kind = exactVersion;
+				version = 10.43.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		856A76E52AE2D8C600501687 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 856A76E42AE2D8C600501687 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		856A76E72AE2D8C600501687 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 856A76E42AE2D8C600501687 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 855AD4712ADFD567000D999F /* Project object */;
+}
